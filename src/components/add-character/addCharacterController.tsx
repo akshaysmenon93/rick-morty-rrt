@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import {useHistory} from 'react-router-dom';
 
 import {addCharacter, Character} from '../../redux/actions';
-import {validateCommentForm} from '../common/formValidator';
+import {validateForm} from '../common/formValidator';
 import AddCharacterForm from './addCharacterForm';
 
 interface AddCharacterControllerProps {
@@ -37,7 +37,7 @@ const _AddCharacterController: React.FC<AddCharacterControllerProps> = ({
 	const handleSubmit = (e: React.ChangeEvent<HTMLFormElement>) => {
 		e.preventDefault();
 
-		const _errors = validateCommentForm(character);
+		const _errors = validateForm(character);
 		setErrors(_errors);
 
 		if (Object.keys(_errors).length > 0) {

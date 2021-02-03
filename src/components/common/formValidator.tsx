@@ -1,6 +1,6 @@
 import {Character} from '../../redux/actions';
 
-export function validateCommentForm(character: Character) {
+export function validateForm(character: Character) {
 	let errors: {[k: string]: any} = {};
 
 	if (character.name.length === 0) {
@@ -8,7 +8,7 @@ export function validateCommentForm(character: Character) {
 	}
 
 	if (character.type.length === 0) {
-		errors.type = 'Please enter your comment';
+		errors.type = 'Please enter your character type';
 	}
 
 	return errors;
