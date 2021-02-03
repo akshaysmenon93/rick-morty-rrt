@@ -1,4 +1,4 @@
-# Rick and Morty sample application build using React Redux and Typescript
+# Rick and Morty sample application using React, Redux & Typescript
 
 To run the project : 
 
