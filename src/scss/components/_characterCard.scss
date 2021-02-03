@@ -1,0 +1,26 @@
+.character-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.character-traits-label {
+	font-weight: bold;
+}
+
+.card {
+	flex: 0 1 24%;
+}
+
+a.add-character-button,
+a.add-character-button:hover {
+	font-size: 2rem;
+	text-align: center;
+	color: $color-white;
+}
+
+.card-text > ul > li {
+	display: inline-block;
+	margin-right: 0.5rem;
+	font-size: 1rem;
+}

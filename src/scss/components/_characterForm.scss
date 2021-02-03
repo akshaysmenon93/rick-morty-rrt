@@ -1,0 +1,61 @@
+.character-form-label {
+	font-size: calc(1.5 * #{$default-font-size});
+	color: $color-white;
+}
+
+.list-header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.character-input {
+	height: 4rem;
+	font-size: 1.3rem;
+	width: 30rem;
+}
+
+.radio-feature {
+	margin-right: 1rem;
+}
+
+.radio-label {
+	font-size: $default-font-size;
+	color: $color-white;
+	margin-right: 1rem;
+}
+
+.form-error {
+	font-size: 1.3rem;
+	color: $color-error;
+}
+
+.button-primary {
+	background: $color-white;
+	font-size: $default-font-size;
+	color: $color-black;
+	width: 10rem;
+}
+
+.button-primary-add {
+	margin-top: 2rem;
+	width: 20rem;
+}
+
+.button-primary-add > a,
+.button-primary-add > a:hover {
+	color: $color-black;
+	text-decoration: none;
+}
+
+a.back,
+a.back:hover {
+	font-size: 1.4rem;
+	color: $color-white;
+	margin: 2rem 0;
+}
+
+.character-form {
+	padding: 2rem;
+	margin: 5rem 10rem 0 10rem;
+}
